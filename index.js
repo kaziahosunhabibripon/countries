@@ -12,6 +12,7 @@ const displayCountries = countries => {
         const countryInfo = `
         <h3 class="country-name">${country.name} </h3>
         <p class="country-capital">${country.capital}</p>
+        <h5> ${country.languages[0].name}</h5>
         <button onclick="displayDetails('${country.name}')" class="btn btn-success Details"> Details</button>
         `
         countryDiv.innerHTML = countryInfo;
@@ -69,6 +70,9 @@ const renderCountryInfo = country=>{
     <h1> ${country.name}</h1>
     <h6 >${country.region}</h6>
     <img src="${country.flag}">
+    <p> ${country.population}</p>
+    <h5> ${country.currencies[0].name}</h5>
+    
     `
 
 }

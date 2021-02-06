@@ -9,8 +9,10 @@
     padding:20px;
     text-align:center;
     width: 400px;
-
-    background-color:rgba(226, 222, 235, 0.13);
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.301),rgba(0, 128, 0, 0.39), rgba(0, 0, 0, 0.377));
+    color:rgba(11, 4, 17, 0.534);
     box-shadow: 5px 5px 10px 5px gray;
 }
 .country-name{
@@ -39,8 +41,10 @@
     font-size: 25px;
     margin: 5px;
     padding: 5px;
-    color:rgba(197, 25, 25, 0.685);
+    color:rgba(104, 13, 189, 0.582);
     text-align:center;
+    
+    
    
 }
 #countryDetails img{
